@@ -1,15 +1,10 @@
 package timefall.winterprogram;
 
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.entity.mob.ZombieEntity;
-import net.minecraft.server.world.ServerWorld;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import timefall.winterprogram.lessons.WorkingSpace;
-
-import javax.swing.text.html.parser.Entity;
-import java.util.Arrays;
-import java.util.Set;
+import timefall.winterprogram.lessons.completed.LoopsAndSwitch;
 
 public class WinterProgram implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
@@ -25,7 +20,8 @@ public class WinterProgram implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 
-		WorkingSpace.driver();
+		LoopsAndSwitch.driver(82);
 
+		WorkingSpace.driver();
 	}
 }

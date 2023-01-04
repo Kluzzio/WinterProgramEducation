@@ -1,11 +1,11 @@
 package timefall.winterprogram.mixin;
 
-import timefall.winterprogram.WinterProgram;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import timefall.winterprogram.WinterProgram;
 
 @Mixin(TitleScreen.class)
 public class ExampleMixin {
