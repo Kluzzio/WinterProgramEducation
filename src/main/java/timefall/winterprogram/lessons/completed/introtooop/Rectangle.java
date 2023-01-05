@@ -6,6 +6,7 @@ public class Rectangle extends Shape {
     private final int y;
 
     public Rectangle(int x, int y) {
+        super(calculateArea(x, y));
         this.x = x;
         this.y = y;
     }
@@ -17,5 +18,13 @@ public class Rectangle extends Shape {
     }
     public double calculateArea() {
         return this.x * this.y;
+    }
+
+    public double getArea() {
+        return this.area;
+    }
+
+    public static double calculateArea(int x, int y) {
+        return x * y;
     }
 }

@@ -11,7 +11,7 @@ public class WorkingSpace {
     //You've seen this kind of interaction before with data types, although ints aren't objects or classes,
     // they show a similar relationship!
 
-    //What is a method? How is this different from a function?
+    //What is a method? How is this different from a function? Not all classes are created equally (utility classes)
 
     //What is a field?
 
@@ -39,6 +39,7 @@ public class WorkingSpace {
 
         System.out.println(shape.calculateArea());
 
+        //noinspection ConstantConditions
         if (shape instanceof Rectangle rectangle) {
             System.out.println(rectangle.calculateArea());
         }
