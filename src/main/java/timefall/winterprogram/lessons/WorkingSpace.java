@@ -5,11 +5,14 @@ import timefall.winterprogram.lessons.completed.introtooop.Shape;
 
 public class WorkingSpace {
     //What is a class? It's a cookie cutter!
+    //What is a classfile? Why is it this way?
 
     //What is an object? It's the cookie!
 
     //You've seen this kind of interaction before with data types, although ints aren't objects or classes,
     // they show a similar relationship!
+
+    //rough approximation of concept
 
     //What is a method? How is this different from a function? Not all classes are created equally (utility classes)
 
@@ -39,9 +42,16 @@ public class WorkingSpace {
 
         System.out.println(shape.calculateArea());
 
+        if (Rectangle.minX == 0)
+            System.out.println("Be Happy");
+
+        float flo = 5.3f;
+        int x = (int) flo;
+        System.out.println(x);
+
         //noinspection ConstantConditions
         if (shape instanceof Rectangle rectangle) {
-            System.out.println(rectangle.calculateArea());
+            System.out.println(Rectangle.calculateArea(rectangle.addB(), ((Shape) rectangle).addB()));
         }
 
     }
