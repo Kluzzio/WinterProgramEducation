@@ -5,6 +5,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import timefall.winterprogram.lessons.WorkingSpace;
 import timefall.winterprogram.lessons.completed.LoopsAndSwitch;
+import timefall.winterprogram.lessons.completed.introtooop.practice.Animal;
+import timefall.winterprogram.lessons.completed.introtooop.practice.AnimalDiet;
+import timefall.winterprogram.lessons.completed.introtooop.practice.Foods;
 
 public class WinterProgram implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
@@ -25,5 +28,10 @@ public class WinterProgram implements ModInitializer {
 
 		/* Jan 5 lecture */
 		WorkingSpace.driver();
+
+		Animal myFavHerbivore = new Animal(AnimalDiet.HERBIVORE, 400);
+
+		myFavHerbivore.eat(Foods.BEEF);
+		myFavHerbivore.clearBowels();
 	}
 }
