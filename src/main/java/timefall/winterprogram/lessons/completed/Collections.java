@@ -35,6 +35,7 @@ public class Collections {
         intList.remove(5);
 
 
+        // Hooray! Hashmaps pog
         HashMap<String, Integer> hashMap = new HashMap<>();
 
         hashMap.put("yep", 5);
