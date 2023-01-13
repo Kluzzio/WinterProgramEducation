@@ -4,7 +4,7 @@ package timefall.winterprogram.lessons.completed.interfaces.singleinterface;
 public class Interfaces {
 
     public static void driver() {
-        Pig myPig = new Pig();  // Create a Pig object
+        IAnimal myPig = new Pig();  // Create a Pig object
         myPig.animalSound();
         myPig.sleep();
     }

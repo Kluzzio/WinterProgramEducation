@@ -1,6 +1,7 @@
 package timefall.winterprogram.lessons;
 
 import timefall.winterprogram.lessons.completed.interfaces.multipleinterface.MultipleInterfaces;
+import timefall.winterprogram.lessons.completed.interfaces.singleinterface.IAnimal;
 import timefall.winterprogram.lessons.completed.interfaces.singleinterface.Interfaces;
 import timefall.winterprogram.lessons.completed.introtooop.Rectangle;
 import timefall.winterprogram.lessons.completed.introtooop.Shape;
@@ -52,11 +53,11 @@ public class WorkingSpace {
 
         // What is the main advantage of interfaces? You can implement more than one to have a de facto version of multiple inheritance.
 
-        MethodOverloading.driver();
-        DynamicRuntime.driver();
-        MultiDynamicRuntime.driver();
-        Interfaces.driver();
-        MultipleInterfaces.driver();
-        MultiDynamicRuntimeSounds.driver();
+        //MethodOverloading.driver();
+        //DynamicRuntime.driver();
+        //MultiDynamicRuntime.driver();
+        //Interfaces.driver();
+        //MultipleInterfaces.driver();
+        //MultiDynamicRuntimeSounds.driver();
     }
 }

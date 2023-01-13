@@ -10,4 +10,12 @@ public class Addition
         int c = a+b+e;
         System.out.println(" Addition of three numbers :" +c);
     }
+
+    int sum(int... ints) {
+        int sum = 0;
+        for (int a : ints) {
+            sum += a;
+        }
+        return sum;
+    }
 }
