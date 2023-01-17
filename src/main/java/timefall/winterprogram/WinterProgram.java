@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import timefall.winterprogram.enchantment.EnchantRegistry;
 import timefall.winterprogram.lessons.WorkingSpace;
+import timefall.winterprogram.lessons.completed.polymorphism.Polymorphism;
 
 import java.util.*;
 
@@ -41,6 +42,9 @@ public class WinterProgram implements ModInitializer {
 		//Collections.driver();
 
 		/* Jan 12 lecture */
+		//Polymorphism.driver();
+
+		/* Jan 13 lecture */
 		WorkingSpace.driver();
 
 		EnchantRegistry.init();
