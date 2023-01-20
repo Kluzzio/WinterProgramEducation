@@ -9,13 +9,10 @@ import net.minecraft.item.AxeItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterials;
-import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.registry.Registry;
 import timefall.winterprogram.WinterProgram;
 import timefall.winterprogram.api.ChanceUtil;
-
-import java.util.Random;
 
 public class SmitingEnchantment extends Enchantment {
     protected SmitingEnchantment(Rarity weight, EnchantmentTarget type, EquipmentSlot[] slotTypes) {

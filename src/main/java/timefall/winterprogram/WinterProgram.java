@@ -5,10 +5,7 @@ import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import timefall.winterprogram.enchantment.EnchantRegistry;
-import timefall.winterprogram.lessons.WorkingSpace;
-import timefall.winterprogram.lessons.completed.polymorphism.Polymorphism;
-
-import java.util.*;
+import timefall.winterprogram.item.ItemsInit;
 
 public class WinterProgram implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
@@ -45,7 +42,9 @@ public class WinterProgram implements ModInitializer {
 		//Polymorphism.driver();
 
 		/* Jan 13 lecture */
-		WorkingSpace.driver();
+		//WorkingSpace.driver();
+
+		ItemsInit.init();
 
 		EnchantRegistry.init();
 

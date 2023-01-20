@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "timefall.winterprogram.WinterProgram"
+    ],
+    "client": [
+      "timefall.winterprogram.WinterProgramClient"
     ]
   },
   "mixins": [

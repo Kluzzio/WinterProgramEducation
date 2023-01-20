@@ -1,20 +1,6 @@
 package timefall.winterprogram.lessons;
 
-import timefall.winterprogram.lessons.completed.interfaces.multipleinterface.MultipleInterfaces;
-import timefall.winterprogram.lessons.completed.interfaces.singleinterface.IAnimal;
-import timefall.winterprogram.lessons.completed.interfaces.singleinterface.Interfaces;
-import timefall.winterprogram.lessons.completed.introtooop.Rectangle;
-import timefall.winterprogram.lessons.completed.introtooop.Shape;
-import timefall.winterprogram.lessons.completed.introtooop.practice.Animal;
-import timefall.winterprogram.lessons.completed.polymorphism.compiletime.MethodOverloading;
-import timefall.winterprogram.lessons.completed.polymorphism.runtime.dynamic.DynamicRuntime;
-import timefall.winterprogram.lessons.completed.polymorphism.runtime.dynamic.Square;
-import timefall.winterprogram.lessons.completed.polymorphism.runtime.multidynamic.genetics.MultiDynamicRuntime;
-import timefall.winterprogram.lessons.completed.polymorphism.runtime.multidynamic.sounds.MultiDynamicRuntimeSounds;
-
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 
 public class WorkingSpace {
