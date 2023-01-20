@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "minecraft:item/bow"
+    "layer0": "winterprogram:item/winter_bow"
   },
   "display": {
     "thirdperson_righthand": {
@@ -30,21 +30,21 @@
       "predicate": {
         "pulling": 1
       },
-      "model": "minecraft:item/bow_pulling_0"
+      "model": "winterprogram:item/winter_bow_pulling_0"
     },
     {
       "predicate": {
         "pulling": 1,
         "pull": 0.65
       },
-      "model": "minecraft:item/bow_pulling_1"
+      "model": "winterprogram:item/winter_bow_pulling_1"
     },
     {
       "predicate": {
         "pulling": 1,
         "pull": 0.9
       },
-      "model": "minecraft:item/bow_pulling_2"
+      "model": "winterprogram:item/winter_bow_pulling_2"
     }
   ]
 }

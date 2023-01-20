@@ -1,0 +1,6 @@
+{
+  "parent": "item/bow",
+  "textures": {
+    "layer0": "winterprogram:item/winter_bow_pulling_2"
+  }
+}
